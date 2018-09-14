@@ -23,13 +23,12 @@ s = """ this is a very
         energy to type more and more ..."""
 {% endhighlight %}
 
-
 For javascript you still need to escape backslashes
 
 {% highlight javascript %}
 var multiStr = "This is the first line \
-	This is the second line \
-	This is more...";
+    This is the second line \
+    This is more...";
 {% endhighlight %}
 
 Perl has them too
@@ -37,9 +36,9 @@ Perl has them too
 {% highlight perl%}
 my $message = <<'END_MESSAGE';
 Dear $name,
- 
+
 this is a message I plan to send to you.
- 
+
 regards
   the Perl Maven
 END_MESSAGE
@@ -53,7 +52,6 @@ val text = """
         print(c)
 """
 {% endhighlight %}
-
 
 Java might get the multiline with [JEP 326](http://openjdk.java.net/jeps/326). It will look like this
 

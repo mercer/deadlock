@@ -5,4 +5,4 @@ date:   2018-08-29 13:46:40
 categories: linux java
 ---
 
-![Pop!_OS Screenshot](pop-os-review-3.png){:class="img-responsive"}
+![Pop!_OS Screenshot](/assets/pop-os-review-3.png){:class="img-responsive"}

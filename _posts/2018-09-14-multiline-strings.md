@@ -7,7 +7,7 @@ categories: java
 
 Multi-line strings in source code are quite useful. You can use them as an embedded template engine, for example to construct the body of a REST call.
 
-Groovy is one language that has ![multi-line strings](http://groovy-lang.org/syntax.html).
+Groovy is one language that has [multi-line strings](http://groovy-lang.org/syntax.html).
 
 {% highlight groovy %}
 def aMultilineString = '''line one
@@ -15,7 +15,7 @@ line two
 line three'''
 {% endhighlight %}
 
-In ![python](https://docs.python.org/3/tutorial/introduction.html#strings) you have
+In [python](https://docs.python.org/3/tutorial/introduction.html#strings) you have
 
 {% highlight python %}
 s = """ this is a very
@@ -45,7 +45,7 @@ regards
 END_MESSAGE
 {% endhighlight %}
 
-And of course, ![Kotlin](https://kotlinlang.org/docs/reference/basic-types.html)
+And of course, [Kotlin](https://kotlinlang.org/docs/reference/basic-types.html)
 
 {% highlight kotlin%}
 val text = """
@@ -55,7 +55,7 @@ val text = """
 {% endhighlight %}
 
 
-Java might get the multiline with ![JEP 326](http://openjdk.java.net/jeps/326). It will look like this
+Java might get the multiline with [JEP 326](http://openjdk.java.net/jeps/326). It will look like this
 
 {% highlight java%}
 String html = `<html>

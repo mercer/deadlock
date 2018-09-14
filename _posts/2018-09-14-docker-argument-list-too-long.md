@@ -12,3 +12,9 @@ unable to execute /usr/bin/docker: Argument list too long
 {% endhighlight %}
 
 It may be that you're passing too many arguments to docker. The limitation comes from the fact that [linux commands accept a maximum size](https://stackoverflow.com/questions/11289551/argument-list-too-long-error-for-rm-cp-mv-commands).
+
+Try limiting the command, for example:
+
+{% highlight bash%}
+docker volume ls -qf dangling=true | head -n 1000 | xargs -r sudo docker volume rm
+{% endhighlight %}

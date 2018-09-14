@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Use HttpsURLConnection for a secure connection"
+title:  "Multi-line strings"
 date:   2018-09-14 12:30:00
 categories: java
 ---

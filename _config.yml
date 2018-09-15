@@ -1,14 +1,12 @@
 # Site settings
-title: Your awesome title
+title: Deadlock
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Deadlock explores technical ideas, tools and curiosities. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://deadlock.icu" # the base hostname & protocol for your site
+twitter_username: losneanu
+github_username:  mercer
 
 # Build settings
 markdown: kramdown
